@@ -76,7 +76,7 @@ public class Solution {
 
   public static void main(String[] args) {
     Walk walk = parseFile("src/file.txt");
-    walk.walk();
+    walk.walkAll();
     System.out.println(walk.getMaxDistance());
 
   }
